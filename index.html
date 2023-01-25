@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/skin/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--==== Estilo Switcher ====-->
+    <link rel="stylesheet" href="css/skin/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/skin/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skin/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skin/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/skin/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="css/style-switcher.css">
 </head>
 <body>
     <!--Inicio contenedor principal-->
@@ -21,11 +28,11 @@
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i>Inicio</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>Sobre mi</a></li>
-                <li><a href="#"><i class="fa fa-list"></i>Servicios</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Portafolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>Contactame</a></li>
+                <li><a href="#Inicio" class="active"><i class="fa fa-home"></i>Inicio</a></li>
+                <li><a href="#Sobre mi"><i class="fa fa-user"></i>Sobre mi</a></li>
+                <li><a href="#Servicios"><i class="fa fa-list"></i>Servicios</a></li>
+                <li><a href="#Portafolios"><i class="fa fa-briefcase"></i>Portafolio</a></li>
+                <li><a href="#Contactame"><i class="fa fa-comments"></i>Contactame</a></li>
             </ul>
             </div>
         </div>
@@ -33,13 +40,13 @@
     <!--Incio Contenido Principal-->
     <div class="main-content">
     <!--Incio Seccion Home-->
-    <section class="home section">
+    <section class="home section" id="Inicio">
         <div class="container">
             <div class="row">
                 <div class="home-info padd-15">
                     <h3 class="hello">Hola, mi nombre es <span class="name">Luis Salaya</span></h3>
-                    <h3 class="my-profession">Soy un <span class="typing">Diseñador Web</span></h3>
-                    <p>Soy un diseñador web con 6 meses de experiencia. Mis conocimentos son tambien y otras cosas mas ...</p>
+                    <h3 class="my-profession">Soy <span class="typing">Contador</span></h3>
+                    <p>Soy Contador Público de profesión, con 15 años de experiencia. A su vez soy Diseñador Web autodidacta, desde hace 1 año a traves de las plataformas de Youtube, Platzi y Udemy.</p>
                     <a href="#Contact" class="btn hire-me">Contactame</a>
                 </div>
                 <div class="home-img padd-15">
@@ -50,7 +57,7 @@
     </section>
     <!--Fin Seccion Home-->
     <!--Incio Seccion Sobre mi-->
-    <section class="about section">
+    <section class="about section" id="Sobre mi">
         <div class="container">
             <div class="row">
                 <div class="section-title padd-15">
@@ -62,7 +69,7 @@
                     <div class="row">
                         <div class="about-text padd-15">
                             <h3>Soy Luis Salaya, <span>Contador y Diseñador Web</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa illum blanditiis similique fugit quaerat. Placeat eos rem possimus ab labore quo alias repellat officiis asperiores! Delectus iure recusandae tempore blanditiis, alias optio ut saepe pariatur similique. Quia deserunt in at, quibusdam nihil suscipit omnis esse dignissimos vel, quos dolor numquam eius nemo! Nam, sapiente!</p>
+                            <p>Tengo 7 años de experiencia en el área de Control y Gestión, lo cual me ha permitido adquirir sólidos conocimientos en el área presupuestaria y de costos, manejo del Sistema SAP en el módulo de Controling. He sido facilitador en cursos de Presupuestos y participado en proyectos de mejoras de procesos como Funcional del módulo de Costos CO en SAP.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -118,17 +125,17 @@
                                 <div class="skill-item padd-15">
                                     <h5>HTML</h5>
                                     <div class="progress">
-                                        <div class="progress-in" style="width: 90%;">
+                                        <div class="progress-in" style="width: 75%;">
                                         </div>
-                                        <div class="skill-percent">90%</div>
+                                        <div class="skill-percent">75%</div>
                                     </div>
                                 </div>
                                 <div class="skill-item padd-15">
-                                    <h5>Bootstrap</h5>
+                                    <h5>SAP</h5>
                                     <div class="progress">
-                                        <div class="progress-in" style="width: 55%;">
+                                        <div class="progress-in" style="width: 80%;">
                                         </div>
-                                        <div class="skill-percent">55%</div>
+                                        <div class="skill-percent">80%</div>
                                     </div>
                                 </div>
                             </div>
@@ -144,18 +151,18 @@
                                         <div class="timeline-item">
                                             <div class="circle-dot"></div>
                                             <h3 class="timeline-date">
-                                                <i class="fa fa-calendar">2020 - 2023</i>
+                                                <i class="fa fa-calendar">2001 - 2007</i>
                                             </h3>
-                                            <h4 class="timeline-title">Master in computer</h4>
-                                            <p class="timeline-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea repudiandae tempore doloribus illum soluta. Quas explicabo sint laudantium? Provident ducimus labore exercitationem dicta corporis non.</p>
+                                            <h4 class="timeline-title">Licenciado en Contaduría Pública</h4>
+                                            <p class="timeline-text">Egresado de La Universidad de Oriente, Núcleo Monagas de La República Bolivariana de Venezuela.</p>
                                         </div>
                                         <div class="timeline-item">
                                             <div class="circle-dot"></div>
                                             <h3 class="timeline-date">
-                                                <i class="fa fa-calendar">2020 - 2023</i>
+                                                <i class="fa fa-calendar">1995 - 2000</i>
                                             </h3>
-                                            <h4 class="timeline-title">Master in computer</h4>
-                                            <p class="timeline-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea repudiandae tempore doloribus illum soluta. Quas explicabo sint laudantium? Provident ducimus labore exercitationem dicta corporis non.</p>
+                                            <h4 class="timeline-title">Bachiller en Ciencias</h4>
+                                            <p class="timeline-text">Egresado de la "Unidad Educativa Diego Sifontes Sosa" de La República Bolivariana de Venezuela.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -170,26 +177,26 @@
                                         <div class="timeline-item">
                                             <div class="circle-dot"></div>
                                             <h3 class="timeline-date">
-                                                <i class="fa fa-calendar">2020 - 2023</i>
+                                                <i class="fa fa-calendar">2021 - 2023</i>
                                             </h3>
-                                            <h4 class="timeline-title">Master in computer</h4>
-                                            <p class="timeline-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea repudiandae tempore doloribus illum soluta. Quas explicabo sint laudantium? Provident ducimus labore exercitationem dicta corporis non.</p>
+                                            <h4 class="timeline-title">La Anónima</h4>
+                                            <p class="timeline-text">Auxiliar Administrativo, actividades: Generar órdenes de compra en SAP, generación de ordenes de descarga a proveedores, emisión de Declaraciones de Mercadería</p>
                                         </div>
                                         <div class="timeline-item">
                                             <div class="circle-dot"></div>
                                             <h3 class="timeline-date">
-                                                <i class="fa fa-calendar">2020 - 2023</i>
+                                                <i class="fa fa-calendar">2018 - 2020</i>
                                             </h3>
-                                            <h4 class="timeline-title">Master in computer</h4>
-                                            <p class="timeline-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea repudiandae tempore doloribus illum soluta. Quas explicabo sint laudantium? Provident ducimus labore exercitationem dicta corporis non.</p>
+                                            <h4 class="timeline-title">Patagonia Logística</h4>
+                                            <p class="timeline-text">Controlador logístico, actidades desarrolladas: Armado de pedidos, recepción de mercadería, carga y descarga de camiones.</p>
                                         </div>
                                         <div class="timeline-item">
                                             <div class="circle-dot"></div>
                                             <h3 class="timeline-date">
-                                                <i class="fa fa-calendar">2020 - 2023</i>
+                                                <i class="fa fa-calendar">2011 - 2018</i>
                                             </h3>
-                                            <h4 class="timeline-title">Master in computer</h4>
-                                            <p class="timeline-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea repudiandae tempore doloribus illum soluta. Quas explicabo sint laudantium? Provident ducimus labore exercitationem dicta corporis non.</p>
+                                            <h4 class="timeline-title">PDVSA GAS S.A</h4>
+                                            <p class="timeline-text">Analista de presupuestos, actividades desempeñadas: Consolidar la formulación del presupuesto de Operaciones, los resultados de gestión de las rendiciones de cuenta del presupuesto, analisis de las variaciones presentadas y obtención de las explicaciones o aclaratorias respectivas.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -202,7 +209,7 @@
     </section>
     <!--Fin Seccion Sobre mi-->
     <!--Inicio Seccion Servicios-->
-    <section class="service section">
+    <section class="service section" id="Servicios">
         <div class="container">
             <div class="row">
                 <div class="section-title padd-15">
@@ -271,7 +278,7 @@
     </section>
     <!--Fin Seccion Servicios-->
     <!--Inicio Seccion Portafolios-->
-    <section class="portfolio section">
+    <section class="portfolio section" id="Portafolios">
         <div class="container">
             <div class="row">
                 <div class="section-title padd-15">
@@ -334,7 +341,7 @@
     </section>
     <!--Fin Seccion Portafolios-->
     <!--Inicio Seccion Contacto-->
-    <section class="contact section">
+    <section class="contact section" id="Contactame">
         <div class="container">
             <div class="row">
                 <div class="section-title padd-15">
@@ -370,31 +377,31 @@
             <h3 class="contact-title padd-15">ENVIAME UN EMAIL</h3>
             <h4 class="contact-sub-title padd-15">SOY MUY RECEPTIVO A LOS MENSAJES</h4>
         <!-- ==== Formulario de contacto ===== -->
-            <div class="row">
+            <form method="get" div class="row">
                 <div class="contact-form padd-15">
                     <div class="row">
                         <div class="form-item col-6 padd-15">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Nombre">
+                            <input type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Nombre" required="true">
                             </div>
                         </div>
                         <div class="form-item col-6 padd-15">
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Email">
+                                <input type="email" class="form-control" name="Email" id="Email" placeholder="Email" required="true">
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-item col-12 padd-15">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Asunto">
+                                <input type="text" class="form-control" name="Asunto" id="Asunto" placeholder="Asunto" required="true">
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-item col-12 padd-15">
                             <div class="form-group">
-                                <textarea name="" class="form-control" id="" placeholder="Mensaje"></textarea>
+                                <textarea name="" class="form-control" name="Mensaje" id="Mensaje" placeholder="Mensaje" required="true"></textarea>
                             </div>
                         </div>
                     </div>
@@ -404,7 +411,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
     </section>
     <!--Fin Seccion Contacto-->
@@ -412,10 +419,28 @@
     <!--Fin Contenido Principal-->
     </div>
     <!--Fin contenedor principal-->
-
-
+    <!--==== Inicio switcher de estilo ====-->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas "></i>
+        </div>
+        <h4>Tema de Colores</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!--==== Fin switcher de estilo ====-->
 
 <!--Archivos Scritp-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
 </body>
 </html>
